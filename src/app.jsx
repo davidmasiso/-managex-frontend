@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'preact/hooks';
 import axios from 'axios';
 
+// ManageX v1.1 - forgot password
 const API = 'https://managex-backend-production-ec28.up.railway.app/api';
 
 const Icon = ({ name, style: x = {} }) => (
